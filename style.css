@@ -1,0 +1,18 @@
+section {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 0 auto;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+article:hover {
+    cursor: not-allowed; /* Change cursor to indicate delete action */
+}
