@@ -13,6 +13,7 @@ article {
     cursor: pointer; /* Change cursor to pointer */
 }
 
-article:hover {
+article:hover:before {
+    content: 🚮;
     cursor: not-allowed; /* Change cursor to indicate delete action */
 }
